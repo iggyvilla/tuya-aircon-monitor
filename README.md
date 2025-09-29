@@ -16,3 +16,5 @@ Using the Grafana Prometheus plugin, one can add the `prometheus-scraper`'s port
 
 ## Usage
 Make sure `prometheus-scraper.py`, `ac-bot.py` and `aircon_info.py` is in the same folder. For setting up the smart breaker, please check the [`tinytuya`](https://i.imgur.com/wJu7aoQ.jpeg) repo on how to get the keys needed to communicate with your breaker. More specifically, this program needs your **device ID, IP address, and local key**. Store them as environment variables (`TUYA_DEVID`, `TUYA_IPADDR`, `TUYA_LOCALKEY`).
+
+For the user sharing, the code was made for me and my 2 roommates. You will have to modify it to fit your situation.
