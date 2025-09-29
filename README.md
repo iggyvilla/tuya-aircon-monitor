@@ -13,3 +13,6 @@ Using Discord, your roommates can turn the AC on and off, and Prometheus will tr
 
 ## Grafana
 Using the Grafana Prometheus plugin, one can add the `prometheus-scraper`'s port (by default 6060) to Prometheus' scrape list and make cool graphs out of it.
+
+## Usage
+Make sure `prometheus-scraper.py`, `ac-bot.py` and `aircon_info.py` is in the same folder. For setting up the smart breaker, please check the [`tinytuya`](https://i.imgur.com/wJu7aoQ.jpeg) repo on how to get the keys needed to communicate with your breaker. More specifically, this program needs your **device ID, IP address, and local key**. Store them as environment variables (`TUYA_DEVID`, `TUYA_IPADDR`, `TUYA_LOCALKEY`).
