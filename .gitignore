@@ -1,0 +1,6 @@
+.idea
+.DS_Store
+tuya-raw.json
+snapshot.json
+tinytuya.json
+devices.json
